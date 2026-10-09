@@ -5,31 +5,31 @@ function Footer() {
     return (
         <footer className="footer">
             <div className="footer-content">
-                <div className="footer-links">
-                    <a href="/about">ABOUT
+                <div className="footer-col">
+                    <h4>ABOUT</h4>
                     <p>yomi is a fine boy</p>
                     <p>yomi is a fine boy</p>
                     <p>yomi is a fine boy</p>
                     <p>yomi is a fine boy</p>
-                    </a>
-                    
-                    <a href="/ info">INFO
-                    <p>yomi is a fine boy</p>
-                    <p>yomi is a fine boy</p>
-                    <p>yomi is a fine boy</p>
-                    <p>yomi is a fine boy</p>
-                    </a>
-                    <a href="/update">UPDATE
-                    <p>yomi is a fine boy</p>
-                    <p>yomi is a fine boy</p>
-                    <p>yomi is a fine boy</p>
-                    <p>yomi is a fine boy</p>
-                    </a>
-
+                </div>
                 
+                <div className="footer-col">
+                    <h4>INFO</h4>
+                    <p>yomi is a fine boy</p>
+                    <p>yomi is a fine boy</p>
+                    <p>yomi is a fine boy</p>
+                    <p>yomi is a fine boy</p>
+                </div>
+
+                <div className="footer-col">
+                    <h4>UPDATE</h4>
+                    <p>yomi is a fine boy</p>
+                    <p>yomi is a fine boy</p>
+                    <p>yomi is a fine boy</p>
+                    <p>yomi is a fine boy</p>
                 </div>
             </div>
-            <p> @2026. All rights reserved</p>
+            <p className="copyright">©2026. All rights reserved</p>
         </footer>
     )
 }
