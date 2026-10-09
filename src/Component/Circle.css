@@ -1,0 +1,15 @@
+.circle {
+    background-color: brown;
+    height: 500px;
+    width: 500px;
+    margin: 20px;
+    border-radius: 200px;
+    
+}
+
+h1{
+    text-align: right;
+    font-size: larger;
+    font-display: block;
+    float: right;
+}

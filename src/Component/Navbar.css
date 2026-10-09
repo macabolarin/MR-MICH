@@ -1,0 +1,29 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #1a1a2e;
+    color: white;
+  }
+  
+  .Navbar h2 {
+    color: gold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 28px; 
+    align-items: center;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .nav-links a:hover {
+    color: gold;
+  }
